@@ -1,0 +1,16 @@
+program em
+  implicit none
+  type emfield
+     real, allocatable :: str(:,:)
+  end type emfield
+
+  type(emfield) :: field
+  integer :: i,j
+
+  forall(i=1:4 , j =1:6)
+     field%str(i,j) = i +4*(j-1)
+  end forall
+
+  write(*,*) field%str
+
+end program em

@@ -1,0 +1,14 @@
+      program loren
+      character (len =*), parameter :: a = 'a teste'
+
+      print *, double(a)
+
+      contains
+      function double(a)
+      character(len =*), intent(in) :: a
+      character(len = 2 *len(a)) :: double
+
+      double = a//a
+      end function double
+
+      end program loren

@@ -1,0 +1,10 @@
+program st
+
+  implicit none
+
+  type stack
+     integer :: index
+     integer, allocatable :: cont(:)
+  
+
+end program st

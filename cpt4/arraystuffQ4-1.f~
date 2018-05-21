@@ -1,0 +1,13 @@
+      program arraystuff
+
+      integer, parameter :: N ; N = 10
+      integer, dimension(N) :: a
+      integer :: i
+
+      do i = 1,N
+         a(i) = i
+         write(*,*) i, a(i)
+
+      end do
+      
+      end program arraystuff

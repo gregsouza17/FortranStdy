@@ -1,0 +1,9 @@
+program mv
+  implicit none
+
+  real :: x(5)
+  
+
+  
+end program mv
+

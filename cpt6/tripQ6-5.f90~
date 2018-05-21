@@ -1,0 +1,20 @@
+program main
+  implicit none
+
+  type triplet
+     real :: u
+     real, dimension(3) :: du
+     real, dimension(3,3) :: d2u
+  end type triplet
+
+  type(triplet), dimension(10,20,30) :: tar
+  integer :: i,j,k
+
+  forall(i=1:10, j=1:20, k = 1:30)
+     tar(i,j,k)%u = i + 10*(j-1) + 200*(k-1)
+     tar(i,j,k)%du(3) = i + 10*j-1 + 200
+  end forall
+
+  
+
+  

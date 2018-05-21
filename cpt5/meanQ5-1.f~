@@ -1,0 +1,10 @@
+      program init
+
+      implicit none
+
+      integer :: N = 10
+      integer :: i
+      real, allocatable :: a(:)
+      real :: mean, variance
+      
+      allocate(a(N))

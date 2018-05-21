@@ -1,0 +1,16 @@
+      program binom
+
+      implicit none
+
+      integer, allocatable :: pascal(:,:)
+      integer :: limit, i, j
+
+      write(*,*) 'Insert the limit, sudo-senpai'
+      read(*,*) limit
+
+      allocate(pascal(limit,limit))
+
+      limit(1,1) = 1
+      write(*,*) a(:,:)
+
+      end program binom

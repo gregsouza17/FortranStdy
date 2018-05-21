@@ -1,0 +1,15 @@
+      program primes
+      implicit none
+      
+      integer :: limit,i
+      integer, allocatable :: primes(:)
+
+      write(*,*) 'Input the limit, sudo-senpai'
+      read(*,*) limit
+
+      write(*,*) (limit % 2)
+      
+
+      
+      end program primes
+      

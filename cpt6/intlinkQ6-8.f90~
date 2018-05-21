@@ -1,0 +1,42 @@
+program link
+  implicit none
+
+
+  type linked_int
+     integer :: i,n=0,p=0
+     type(linked_int), pointer :: previous, next
+  end type linked_int
+
+  type(linked_int),target :: one, two
+  type(linked_int), pointer :: nul => NULL()
+
+  one%i = 1
+  two%i = 2
+
+  call add(two)
+
+  write(*,*) two%previous%i
+
+contains
+
+  subroutine add(lkint)
+    type(linked_int), target :: lkint
+    type(linked_int), pointer :: current
+
+    current => one
+
+    do while(current%n == 1)
+       current => current%next
+    enddo 
+
+    current%next => lkint
+    lkint%previous => current
+
+    current%n = 1
+    lkint%p = 1
+    
+  end subroutine add
+  
+   
+end program link
+

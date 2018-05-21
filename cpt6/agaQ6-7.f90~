@@ -1,0 +1,10 @@
+program aga
+  implicit none
+
+  integer, dimension(100) :: vec
+  integer :: i, s1,s2
+
+  forall(i=1,100)
+     dimension(i) = i
+  end do
+  

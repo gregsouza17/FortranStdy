@@ -1,0 +1,24 @@
+program arra
+  implicit none
+
+  integer, dimension(100,100), target :: l,m,n
+  integer, dimension(:,:), pointer :: ll, mm, nn
+  integer :: i,j,k
+
+ 
+  forall(i=1:100,j=1:100)
+     l(i,j) = i + 100*(j-1)
+     m(i,j) = 10*i - 100*(j-1)
+     n(i,j) = i*j + j
+
+  end forall
+  j = 12; k = 73
+
+  l(j:k+1, j-1:k) = l(j:k+1, j-1:k) + l(j:k+1, j-1:k)
+  l(j:k+1, j-1:k) = m(j:k+1, j-1:k) + n(j:k+1, j-1:k) + n(j:k+1, j:k+1)
+
+  
+  
+  
+
+  

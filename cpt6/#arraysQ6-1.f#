@@ -1,0 +1,5 @@
+      program arrays
+      implicit none
+
+      real, dimension(50,20)
+      

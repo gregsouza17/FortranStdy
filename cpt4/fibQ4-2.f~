@@ -1,0 +1,20 @@
+      program fib
+      implicit none
+
+      integer :: limit
+      integer :: flast, f, fnext
+
+      f = 1; flast = 1
+
+      read(*,*) limit
+
+      integer, dimension(limit) :: teste
+      integer :: i
+      
+
+      
+      
+      end program fib
+      
+      
+      

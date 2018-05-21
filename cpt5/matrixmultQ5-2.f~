@@ -1,0 +1,26 @@
+      program initmatrix
+
+      implicit none
+
+      integer :: i,j,k
+      real, allocatable:: A(:,:),B(:,:),C(:,:)
+      i=2 ; j=2 ; k=2
+
+      allocate(A(i,j))
+      allocate(B(j,k))
+
+      allocate(C(i,k))
+
+      
+
+
+      
+      deallocate(A)
+      deallocate(B)
+      deallocate(C)
+      
+     
+      
+
+      
+      end program initmatrix
