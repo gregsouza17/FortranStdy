@@ -17,3 +17,8 @@ http://pages.tacc.utexas.edu/~eijkhout/istc/html/language.html
 https://www.roguewave.com/sites/rw/files/attachments/StandardizedMixedLanguageProgrammingforCandFortran.pdf
 
 https://www.todoespacoonline.com/w/2015/05/instalar-ubuntu-e-windows-em-dual-boot-guia-definitivo/
+
+
+//Linking CUDA file as .o
+
+https://stackoverflow.com/questions/9421108/how-can-i-compile-cuda-code-then-link-it-to-a-c-project?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
