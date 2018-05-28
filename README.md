@@ -12,9 +12,9 @@ Online Resources For Interoperability with C
 https://stackoverflow.com/questions/3852790/fortran-interface-to-call-a-c-function-that-return-a-pointer
 
 
-http://pages.tacc.utexas.edu/~eijkhout/istc/html/language.html
-
 https://www.roguewave.com/sites/rw/files/attachments/StandardizedMixedLanguageProgrammingforCandFortran.pdf
+
+http://web.archive.org/web/20130317102755/http://www.amath.unc.edu/sysadmin/DOC4.0/fortran/prog_guide/11_cfort.doc.html
 
 https://www.todoespacoonline.com/w/2015/05/instalar-ubuntu-e-windows-em-dual-boot-guia-definitivo/
 
