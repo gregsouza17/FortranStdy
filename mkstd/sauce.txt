@@ -1,0 +1,21 @@
+Oxford Physics Departament Presentes:
+- Makefile for beginners
+https://www2.physics.ox.ac.uk/it-services/makefiles-for-beginners
+
+
+A random blogger on the internet precets:
+http://genius2k.is-programmer.com/posts/40301.html
+
+A PDf from IASstate.EDU:
+http://www.public.iastate.edu/~akmitra/aero361/design_web/AshWWW/makefiles.pdf
+
+
+makefile class:
+https://www.youtube.com/watch?v=ph0k7nOS52g&list=PLNmACol6lYY7Dzvg7jKgvMdDaDEDFnNqD
+ 
+Commented Sauce:
+http://www.webalice.it/o.drofa/davide/makefile-fortran/makefile-fortran.html
+
+https://docs.oracle.com/cd/E19957-01/805-4940/z400090015c4/index.html
+
+https://stackoverflow.com/questions/5871780/creating-a-fortran-makefile?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
