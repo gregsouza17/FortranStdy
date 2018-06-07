@@ -1,4 +1,4 @@
-FortranStd
+FortranStdy
 
 
 This is a repository for coding exercises in Fortran 95 based
