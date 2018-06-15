@@ -1,0 +1,11 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void)
+{
+  char a[200];
+  
+  return 0;
+}

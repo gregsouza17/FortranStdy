@@ -1,12 +1,12 @@
 #initial variables
 #Fortran Compiler
-FC = gfortran
+FC = ifort
 #Compiler flags
 FCFLAGS = -c
 #Linker flags
-LINKER = $(FC) -o
+LINKER = $(FC) -o 
 #Link flags
-FCLINKS = -g
+FCLINKS = -g -liomp5
 #object files
 OBJS = call2.o two.o three.o
 #program name
@@ -20,8 +20,9 @@ all: $(PROGS)
 #<tab> command
 $(PROGS): $(OBJS)
 	@echo "------------------------------------"
-	@echo "Creating count.exe"
+	@echo "Creating count.exe with "
 	@echo  "------------------------------------"
+	$(FC) -v
 	$(LINKER) $(PROGS) $(OBJS) $(FCLINKS)
 
 #definition for dependencies
